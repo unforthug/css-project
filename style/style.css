@@ -1,0 +1,535 @@
+ body{
+    display: block;
+}
+
+.main-header{
+display: flex;
+width: auto;
+position: fixed;
+height: 50px;
+justify-content:center;
+margin: 0px 250px;
+padding: 0;
+background-color: rgb(255, 255, 255);
+border-radius: 20px;
+border: 1px solid whitesmoke;
+}
+
+.logo{
+    width: 350px;
+    height: 33px;
+    padding: 0;
+    margin: 0;
+    /* position: relative; */
+}
+.logo-Docplanner{
+    width: 350px;
+    height: 33px;
+    padding: 0;
+    margin: 0;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    width:300px;
+    margin-left: 550px;
+}
+.main-nav{
+    display: inline-block;
+    width: 300px;
+}
+.main-menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+}
+.ac a{
+    color: #747474; 
+}
+.main-menu a{
+    font-family: Roboto,Arial,sans-serif;
+    list-style: none;
+    font-size: .9375rem;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 2em;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown a{
+    text-decoration: none;
+    color: #747474;
+    list-style: none;
+}
+.ab{
+    color: #00b39b;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+}
+.dropdown-content ul{
+    list-style: none;
+    text-decoration: none;
+    color: #747474;
+    font-family: Roboto,Arial,sans-serif;
+    list-style: none;
+    font-size: .9375rem;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 2em;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    list-style: none;
+}
+
+
+/*Main Szction*/
+
+
+.main{
+display: flex;
+width: auto;
+margin: 0px 250px;
+flex-direction: column;
+
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.titre {
+    align-self: center;
+    font-size: 2.125rem;
+    color: #00b39b;
+    margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+.para{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.col-2 p {
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    padding: 0px;
+    line-height: 1.75;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    width: 400px;
+    text-align:justify;
+}
+.grid p{
+    border: 1px solid blue;
+}
+
+/**/
+
+
+.types{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 250px;
+    padding: 0;
+    width: auto;
+    height: 350px;
+    
+}
+.col1{
+   background-color: #00b39b;
+   padding: 25px;
+   margin: 10px;
+   border-radius: 10px;
+   font-family: sans-serif;
+   color: white;
+   font-size: 15px;
+}
+.col1 h1{
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: 0.3em 0;
+}
+.col1 h2{
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: 0.3em 0;
+
+}
+
+.col2{
+    background-color: #2933c0;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.col3{
+    background-color: #000000;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+
+
+
+/**/
+
+.fle1{
+    display: flex;
+    width: auto;
+    margin: 40px 250px;
+    padding: 20px;
+    height: 116px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+.gen{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    width: 320px;
+    height: 116px;
+}
+
+.gen h1{
+font-size: 35px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 10;
+color: #00b39b;
+padding: 0;
+margin: 0;
+}
+
+.lis{
+    width: 680px;
+}
+.brands__logos{
+    width: 650px;
+    height: 116px;
+    list-style: none;
+     display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+
+}
+.brands__logos__tuotempo{
+   width: 110px;
+   height: 58px;
+   padding: 0;
+   margin: 0;
+}
+.brands__logos__gipo{
+    width: 110px;
+    height: 58px;
+    padding: 0;
+    margin: 0;
+}
+.brands__logos__clinicloud{
+    width: 110px;
+    height: 58px;
+    padding: 0;
+    margin: 0;
+}
+.brands__logos__jameda{
+    width: 110px;
+    height: 58px;
+    padding: 0;
+    margin: 0;
+}
+.main-footer{
+display: flex;
+border: 2px solid red;
+width: auto;
+height: 35px;
+margin: 0px 250px;
+}
+
+/*Middle Section*/
+
+.middle-photo{
+    background-color: #e5faf8;
+    width: 100%;
+    height: 560px;
+    margin: 0;
+    display: flex;
+}
+.gr{
+    display: flex;
+    width: 100%;
+    height: 560px;
+    margin: 0 100px;
+
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.part1 h1{
+    width: 450px;
+    height: 40px;
+    margin: 0;
+    color:#00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 40px;
+    padding-top: 50px;
+    
+}
+.part1 h4{
+    width: 450px;
+    height: 60px;
+    margin: 40px 0px;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    max-width: 415px;
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.7142857143;
+    padding: 0;
+}
+.part2{
+    display: flex;
+    justify-content: space-around;
+    width: 550px;
+    height: 530px;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.part2 h3{
+    color:#00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+}
+.part2 p{
+    font-size: small;
+}
+.sticker1{
+    background-color: rgb(255, 255, 255);
+    width: 220px;
+    height: 220px;
+    margin-top: 20px;
+    border-radius:7px;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    text-align: center;
+    font-size:15px;
+    padding-top: 30px;
+}
+.sticker2{
+    background-color: rgb(255, 255, 255);
+    width: 220px;
+    height: 220px;
+    border-radius:7px;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    text-align: center;
+    font-size:15px;
+    padding-top: 30px;
+}
+.sticker3{
+    background-color: rgb(255, 255, 255);
+    width: 220px;
+    height: 220px;
+    margin-top: 20px;
+    border-radius:7px;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    text-align: center;
+    font-size:15px;
+    padding-top: 30px;
+}
+.sticker4{
+    background-color: rgb(255, 255, 255);
+    width: 220px;
+    height: 220px;
+    border-radius:7px;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    text-align: center;
+    font-size:15px;
+    padding-top: 30px;
+}
+
+/* Section 5*/
+
+.sec5{
+    width: auto;
+    margin: 50px 250px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+.sec5 h1{
+color: #00b39b;
+text-align: center;
+font-size: 2.1428571429em;
+font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+.ps5 p{
+    text-align: center;
+    font-size: .875em;
+    color: #747474;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+}
+
+
+/*This is The Gallery Section*/
+
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: auto ;
+    height:1110px ;
+    margin: 0px 250px ;
+}
+.pol{
+    display: flex;
+    border-radius: 10px;
+    width:312px ;
+    height:350px ;
+    flex-wrap: wrap;
+    border: 2px solid whitesmoke;
+    background-color: white;
+    
+}
+.pol a{
+    text-decoration: none;
+}
+.figur{
+    width: 310px;
+    height: 270px;
+}
+.slid{
+    width: 310px;
+    height: 70px;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.slid h4{
+    width: 60px;
+    height: 35px;
+    color: #747474;
+
+}
+.open{
+    width: 100px;
+}
+.open a{
+    background-color: #3d83df;
+    border-radius: 15;
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    border: 2px solid blue;
+}
+
+
+
+
+
+
+
+
+/* This Is The Footer Section*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 250px;
+    width: auto;
+    align-items: center;
+
+
+}
+.footer h2{
+    text-align: center;
+    color: #333;
+    font-size: 2.1428571429em;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: lighter;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+.footer a{
+    text-align: center;
+    background-color: #3d83df;
+    color: aliceblue;
+    border-radius: 4px;
+    width: 220px;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ref{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color:white;
+    border: 0.5px solid gainsboro;
+    margin-bottom: 0;
+}
+.ref a{
+    color: blue;
+    text-decoration: none;
+}
+.ref p{
+    color: #ababab;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0; 
+}
